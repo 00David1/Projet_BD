@@ -9,7 +9,7 @@ def get_connection():
         conn = mysql.connector.connect(
             host='localhost',
             user='root',          # Change 'root' si ton utilisateur MySQL est différent
-            password='efreiSQL!',          # Mettre votre mot de passe MySQL ici s'il y en a un
+            password='',          # Mettre votre mot de passe MySQL ici s'il y en a un
             database='alsi_invest_bdd' # Mettre le bon nom de la base de données que tu as créée
         )
         if conn.is_connected():
